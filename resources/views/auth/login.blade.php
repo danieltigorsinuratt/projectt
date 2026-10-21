@@ -2,7 +2,7 @@
 <html lang="id" class="h-full">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">N
     <title>Login - Sistem Pengarsipan Dokumen PLN</title>
 
     <!-- Google Fonts -->
