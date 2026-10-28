@@ -161,6 +161,13 @@
             document.getElementById('filePromptSub').innerText = (file.size / 1024 / 1024).toFixed(2) + ' MB';
             document.getElementById('dropZone').classList.add('border-emerald-400', 'bg-emerald-50/40');
             document.getElementById('uploadIcon').className = 'fa-solid fa-circle-check text-emerald-500 text-2xl';
+
+            // Auto-fill nama dokumen from file name (without extension)
+            const nameInput = document.getElementById('nama_dokumen');
+            if (!nameInput.value) {
+                const nameWithoutExt = file.name.replace(/\.[^/.]+$/, '');
+                nameInput.value = nameWithoutExt;
+            }
         }
     }
 

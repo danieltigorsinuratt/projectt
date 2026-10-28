@@ -169,12 +169,6 @@
 
             <!-- Right Header Actions -->
             <div class="flex items-center gap-6">
-                <!-- Notification Bell -->
-                <button class="relative p-2 text-slate-500 hover:text-slate-800 transition rounded-full hover:bg-slate-100">
-                    <i class="fa-regular fa-bell text-lg"></i>
-                    <span class="absolute top-1.5 right-1.5 w-2 h-2 bg-red-500 rounded-full"></span>
-                </button>
-
                 <!-- User Profile Pill -->
                 <div class="flex items-center gap-3">
                     <div class="w-10 h-10 rounded-full bg-[#0284c7] text-white flex items-center justify-center font-bold text-sm shadow-sm flex-shrink-0">
